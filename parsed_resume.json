@@ -1,0 +1,160 @@
+{
+  "personal_info": {
+    "name": "Callum Arul",
+    "title": "Your Title",
+    "hero_description": "Gen AI Data Operations and Projects Manager driving innovative advancements in large language model capabilities at Surge AI.",
+    "about_description": "I'm Callum, a passionate professional navigating the dynamic world of AI and data operations. Currently, I’m diving deep into the evolving landscape at Surge AI, where I collaborate with leading researchers to push the boundaries of language model technology. Outside of work, you’ll find me exploring new programming languages or enjoying a good book, always seeking fresh perspectives that spark creativity and innovation in both my personal and professional life."
+  },
+  "work_experience": [
+    {
+      "position": "Gen AI Data Operations and Projects Manager",
+      "company": "Surge AI",
+      "duration": "Oct 2024 - Present",
+      "location": "Remote, Full-time",
+      "description": [
+        "Collaborated with top researchers at Google and other major tech companies to shape strategy and drive progress on frontier LLM development.",
+        "Owned and led end-to-end initiatives advancing frontier LLM capabilities, including tool use, multi-modal understanding, web interaction, and real-world task execution across productivity and communication tools.",
+        "Designed and managed high-signal evaluation pipelines with advanced quality control, achieving >80% inter-rater agreement across large-scale annotations for reasoning, factuality, and agentic behavior."
+      ]
+    },
+    {
+      "position": "Gen AI Engineer - LLM Optimization",
+      "company": "Various Companies",
+      "duration": "Sep 2024 - Present",
+      "location": "Consultant/Freelance",
+      "description": [
+        "Trained and fine-tuned LLMs using RLHF and prompt engineering to optimize code generation, significantly improving the accuracy and efficiency of the generated code.",
+        "Integrated enterprise APIs with models, enabling tool calls and supporting agentic workflows. Conducted stress testing with adversarial prompts to enhance resilience across diverse enterprise applications.",
+        "Automated model training and deployment by building scalable data pipelines on Google Cloud Platform, utilizing Kubeflow for workflow orchestration and Vertex AI for model training and deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "RBC AI Banking Agent",
+      "description": [
+        "Built a context-aware RAG chatbot using LangChain and Gemini API, capable of delivering real-time responses grounded in scraped RBC policy documents via vector search and embedded metadata.",
+        "Integrated multi-step function calling with MCP to simulate secure banking operations (e.g., authentication, fund transfer, balance display), enabling realistic back-end interaction within a conversational flow.",
+        "Designed a frontend with SSE-based streaming and engineered intent classification through prompt-based routing, allowing the bot to distinguish FAQs, transactions, and escalation triggers with high contextual precision."
+      ],
+      "technologies": [],
+      "github": "",
+      "link": "https://github.com/frogcoder/llm-chatbot"
+    },
+    {
+      "name": "Heart Disease Classification",
+      "description": [
+        "Built and evaluated ML models (Logistic Regression, KNN, Decision Tree, Random Forest, XGBoost) to classify heart disease, achieving 88% accuracy with XGBoost.",
+        "Conducted full ML pipeline including EDA, feature engineering, hyperparameter tuning, and performance evaluation using confusion matrix and ROC-AUC."
+      ],
+      "technologies": [],
+      "github": "",
+      "link": "https://github.com/omisdami/GROUP1_HEART-DISEASE-"
+    },
+    {
+      "name": "Media Hub App",
+      "description": [
+        "Developed a full-stack Android Studio application in a team of 5 (with Git) using Kotlin and XML, allowing users to browse, track, curate and share media.",
+        "Architected the MVVM structure, implementing the database, ViewModel and UI layer. Integrated the Steam API and The Movie Database API for media retrieval, with user authentication and database management powered by Firebase on Google Cloud."
+      ],
+      "technologies": [],
+      "github": "",
+      "link": "https://cmpt362-group4.github.io/"
+    },
+    {
+      "name": "Custom Compiler",
+      "description": [
+        "Built a comprehensive compiler in Java for a proprietary programming language, offering robust error handling.",
+        "Implemented Abstract Syntax Tree and Visitor design pattern for lexical, semantic analysis, expression evaluation and code generation. Included support for functions, recursion and type casting."
+      ],
+      "technologies": [],
+      "github": "",
+      "link": "https://github.com/carul17/CustomCompiler"
+    },
+    {
+      "name": "Search Optimization",
+      "description": [
+        "Researched and implemented binary search optimization techniques, reducing data search latency in large datasets by 150%.",
+        "Conducted performance testing using GoogleTest, GoogleBenchmark and perf to identify bottlenecks.",
+        "Documented detailed procedures, performance benchmarks, and profiling results to ensure reproducibility."
+      ],
+      "technologies": [],
+      "github": "",
+      "link": "https://tinyurl.com/SearchOptimizationCA"
+    },
+    {
+      "name": "Social Game Platform",
+      "description": [
+        "Led a team of 8 to develop an end-to-end social game platform (with Git) in modern C++, placing 1st among 6 teams.",
+        "Created an asynchronous scripting engine and implemented expression resolution for a custom game-specification language, enabling dynamic game production.",
+        "Created a recursive multi-type data structure as the core container for all game data."
+      ],
+      "technologies": [],
+      "github": "",
+      "link": "https://github.com/carul17/SocialGamePlatform"
+    }
+  ],
+  "skills": {
+    "languages": [
+      "Python",
+      "SQL",
+      "C++",
+      "Java",
+      "Kotlin",
+      "XML"
+    ],
+    "frameworks": [
+      "PyTorch",
+      "Pandas",
+      "Numpy",
+      "Scikit-learn",
+      "Matplotlib",
+      "LangChain",
+      "LangGraph"
+    ],
+    "cloud_ops": [
+      "GCP",
+      "Vertex AI",
+      "Firebase",
+      "Firestore",
+      "Kubernetes",
+      "Kubeflow",
+      "Docker"
+    ],
+    "other": [
+      "Git",
+      "SQLite",
+      "Perf",
+      "GoogleBenchmark"
+    ],
+    "proficiencies": [
+      "ML/DL",
+      "RLHF",
+      "AI Agents",
+      "RAG",
+      "Prompt Engineering",
+      "Full-Stack Dev",
+      "Data Structures and Algorithms"
+    ]
+  },
+  "education": [
+    {
+      "institution": "George Brown College",
+      "location": "Toronto, ON, Canada",
+      "dates": {
+        "start": "Jan 2025",
+        "end": "Dec 2025"
+      },
+      "degree": "Post-graduate Certificate in Applied AI Solutions Development"
+    },
+    {
+      "institution": "Simon Fraser University",
+      "location": "Vancouver, BC, Canada",
+      "dates": {
+        "start": "Sep 2018",
+        "end": "Dec 2023"
+      },
+      "degree": "B.Sc., Computing Science"
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALLUM ARUL - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">CALLUM</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="profile-picture"><img src="assets/profile.jpeg" alt="Profile Picture"></div>
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hello, I'm</span>
+                        <span class="name">CALLUM ARUL</span>
+                    </h1>
+                    <p class="hero-subtitle">Professional</p>
+                    <p class="hero-description">
+                        Driving the next generation of LLM capabilities with leading resarch labs.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#experience" class="btn btn-secondary">View My Work</a>
+                        <a href="assets/resume.pdf" target="_blank" class="btn btn-secondary">
+                            <i class="fas fa-download"></i> Resume
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/callumarul/" target="_blank"><i class="fab fa-linkedin"></i></a><a href="mailto:callumarul@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I’m Callum, a Data Operations and Projects Manager at Surge AI, where I work on advancing frontier LLM capabilities through hands-on leadership in evaluation, agent behavior, and real-world applications. I’ve partnered with top AI labs and tech companies to shape how cutting-edge models interact with tools, reason across modalities, and stay grounded in factuality. I care deeply about building systems that are not only powerful, but reliable and human-aligned.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item"><i class="fas fa-envelope"></i><span>callumarul@gmail.com</span></div><div class="detail-item"><i class="fas fa-phone"></i><span>+1 778 858 5032</span></div><div class="detail-item"><i class="fas fa-map-marker-alt"></i><span>Toronto, ON</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Gen AI Data Operations and Projects Manager</h3>
+                        <h4>Surge AI</h4>
+                        <div class="timeline-meta">
+                            <span class="duration">Oct 2024 - Present</span>
+                            <span class="location">Remote, Full-time</span>
+                        </div>
+                        <div class="timeline-description">
+                            <ul><li>Collaborated with top researchers at <strong>Google</strong> and other major tech companies to shape strategy and drive progress on frontier LLM development.</li><li>Owned and led end-to-end initiatives advancing frontier LLM capabilities, including tool use, multi-modal understanding, web interaction, and real-world task execution across productivity and communication tools.</li><li>Designed and managed high-signal evaluation pipelines with advanced quality control, achieving <strong>>80% inter-rater agreement</strong> across large-scale annotations for reasoning, factuality, and agentic behavior.</li></ul>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Gen AI Engineer - LLM Optimization</h3>
+                        <h4>Various Companies</h4>
+                        <div class="timeline-meta">
+                            <span class="duration">Sep 2024 - Present</span>
+                            <span class="location">Consultant/Freelance</span>
+                        </div>
+                        <div class="timeline-description">
+                            <ul><li>Trained and fine-tuned LLMs using <strong>RLHF</strong> and <strong>prompt engineering</strong> to optimize code generation, significantly improving the accuracy and efficiency of the generated code.</li><li>Integrated enterprise APIs with models, enabling <strong>tool calls</strong> and supporting <strong>agentic workflows</strong>. Conducted <strong>stress testing</strong> with adversarial prompts to enhance resilience across diverse enterprise applications.</li><li>Automated model training and deployment by building scalable data pipelines on <strong>Google Cloud Platform</strong>, utilizing <strong>Kubeflow</strong> for workflow orchestration and <strong>Vertex AI</strong> for model training and deployment.</li></ul>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>RBC AI Banking Agent</h3>
+                        <div class="project-description"><ul><li>Built a context-aware <strong>RAG</strong> chatbot using <strong>LangChain</strong> and <strong>Gemini API</strong>, capable of delivering real-time responses grounded in scraped RBC policy documents via vector search and embedded metadata.</li><li>Integrated multi-step <strong>function calling</strong> with <strong>MCP</strong> to simulate secure banking operations (e.g., authentication, fund transfer, balance display), enabling realistic back-end interaction within a conversational flow.</li><li>Designed a frontend with SSE-based streaming and engineered <strong>intent classification</strong> through prompt-based routing, allowing the bot to distinguish FAQs, transactions, and escalation triggers with high contextual precision.</li></ul></div>
+                        <div class="tech-stack">
+                            
+                        </div>
+                        <div class="project-links">
+                            
+                            <a href="https://github.com/frogcoder/llm-chatbot" target="_blank" class="project-btn"><i class="fab fa-github"></i>GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Heart Disease Classification</h3>
+                        <div class="project-description"><ul><li>Built and evaluated ML models (Logistic Regression, KNN, Decision Tree, Random Forest, XGBoost) to classify heart disease, achieving 88% accuracy with XGBoost.</li><li>Conducted full ML pipeline including EDA, feature engineering, hyperparameter tuning, and performance evaluation using confusion matrix and ROC-AUC.</li></ul></div>
+                        <div class="tech-stack">
+                            
+                        </div>
+                        <div class="project-links">
+                            
+                            <a href="https://github.com/omisdami/GROUP1_HEART-DISEASE-" target="_blank" class="project-btn"><i class="fab fa-github"></i>GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Media Hub App</h3>
+                        <div class="project-description"><ul><li>Developed a full-stack <strong>Android Studio</strong> application in a team of 5 (with <strong>Git</strong>) using <strong>Kotlin</strong> and <strong>XML</strong>, allowing users to browse, track, curate and share media.</li><li>Architected the <strong>MVVM</strong> structure, implementing the database, ViewModel and UI layer. Integrated the Steam API and The Movie Database API for media retrieval, with user authentication and database management powered by <strong>Firebase</strong> on <strong>Google Cloud</strong>.</li></ul></div>
+                        <div class="tech-stack">
+                            
+                        </div>
+                        <div class="project-links">
+                            
+                            <a href="https://cmpt362-group4.github.io/" target="_blank" class="project-btn"><i class="fab fa-github"></i>GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Custom Compiler</h3>
+                        <div class="project-description"><ul><li>Built a comprehensive compiler in <strong>Java</strong> for a proprietary programming language, offering robust error handling.</li><li>Implemented Abstract Syntax Tree and Visitor design pattern for <strong>lexical, semantic analysis, expression evaluation</strong> and <strong>code generation</strong>. Included support for functions, recursion and type casting.</li></ul></div>
+                        <div class="tech-stack">
+                            
+                        </div>
+                        <div class="project-links">
+                            
+                            <a href="https://github.com/carul17/CustomCompiler" target="_blank" class="project-btn"><i class="fab fa-github"></i>GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Search Optimization</h3>
+                        <div class="project-description"><ul><li>Researched and implemented binary search optimization techniques, <strong>reducing</strong> <strong>data search</strong> <strong>latency</strong> in large datasets by <strong>150%</strong>.</li><li>Conducted performance testing using <strong>GoogleTest</strong>, <strong>GoogleBenchmark</strong> and <strong>perf</strong> to identify bottlenecks.</li><li>Documented detailed procedures, performance benchmarks, and profiling results to ensure reproducibility.</li></ul></div>
+                        <div class="tech-stack">
+                            
+                        </div>
+                        <div class="project-links">
+                            
+                            <a href="https://tinyurl.com/SearchOptimizationCA" target="_blank" class="project-btn"><i class="fab fa-github"></i>GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Social Game Platform</h3>
+                        <div class="project-description"><ul><li>Led a team of 8 to develop an end-to-end social game platform (with <strong>Git</strong>) in modern <strong>C++</strong>, placing 1st among 6 teams.</li><li>Created an <strong>asynchronous scripting engine</strong> and implemented <strong>expression resolution</strong> for a custom game-specification language, enabling dynamic game production.</li><li>Created a recursive multi-type data structure as the core container for all game data.</li></ul></div>
+                        <div class="tech-stack">
+                            
+                        </div>
+                        <div class="project-links">
+                            
+                            <a href="https://github.com/carul17/SocialGamePlatform" target="_blank" class="project-btn"><i class="fab fa-github"></i>GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-container">
+                
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">Python</span><span class="skill-item">SQL</span><span class="skill-item">C++</span><span class="skill-item">Java</span><span class="skill-item">Kotlin</span><span class="skill-item">XML</span>
+                        </div>
+                    </div>
+                
+                    <div class="skill-category">
+                        <h3>Frameworks</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">PyTorch</span><span class="skill-item">Pandas</span><span class="skill-item">Numpy</span><span class="skill-item">Scikit-learn</span><span class="skill-item">Matplotlib</span><span class="skill-item">LangChain</span><span class="skill-item">LangGraph</span>
+                        </div>
+                    </div>
+                
+                    <div class="skill-category">
+                        <h3>Cloud Ops</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">GCP</span><span class="skill-item">Vertex AI</span><span class="skill-item">Firebase</span><span class="skill-item">Firestore</span><span class="skill-item">Kubernetes</span><span class="skill-item">Kubeflow</span><span class="skill-item">Docker</span>
+                        </div>
+                    </div>
+                
+                    <div class="skill-category">
+                        <h3>Other</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">Git</span><span class="skill-item">SQLite</span><span class="skill-item">Perf</span><span class="skill-item">GoogleBenchmark</span>
+                        </div>
+                    </div>
+                
+                    <div class="skill-category">
+                        <h3>Proficiencies</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">ML/DL</span><span class="skill-item">RLHF</span><span class="skill-item">AI Agents</span><span class="skill-item">RAG</span><span class="skill-item">Prompt Engineering</span><span class="skill-item">Full-Stack Dev</span><span class="skill-item">Data Structures and Algorithms</span>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+        
+                <div class="education-card">
+                    <h3>Post-graduate Certificate in Applied AI Solutions Development</h3>
+                    <h4>George Brown College</h4>
+                    <div class="education-meta">
+                        <span class="year">Jan 2025 - Dec 2025</span>
+                        
+                    </div>
+                </div>
+            
+                <div class="education-card">
+                    <h3>B.Sc., Computing Science</h3>
+                    <h4>Simon Fraser University</h4>
+                    <div class="education-meta">
+                        <span class="year">Sep 2018 - Dec 2023</span>
+                        
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+        
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>I'm always interested in new opportunities and collaborations.</p>
+                    <div class="contact-details">
+                        <div class="contact-item"><i class="fas fa-envelope"></i><a href="mailto:callumarul@gmail.com">callumarul@gmail.com</a></div><div class="contact-item"><i class="fas fa-phone"></i><a href="tel:+1 778 858 5032">+1 778 858 5032</a></div><div class="contact-item"><i class="fas fa-map-marker-alt"></i><span>Toronto, ON</span></div>
+                    </div>
+                    <div class="social-links-contact">
+                        <a href="https://www.linkedin.com/in/callumarul/" target="_blank" class="social-btn"><i class="fab fa-linkedin"></i>LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 CALLUM ARUL. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
